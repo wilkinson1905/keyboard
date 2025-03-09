@@ -1,0 +1,53 @@
+(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0") (uuid "d62cec68-5dc5-47b9-9405-4dd35390a128") (paper "A4") (lib_symbols 
+
+(symbol "Switch:SW_Push" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes) 
+
+(property "Reference" "SW" (at 1.27 2.54 0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "SW_Push" (at 0 -1.524 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 0 5.08 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "~" (at 0 5.08 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "Push button switch, generic, two pins" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "ki_keywords" "switch normally-open pushbutton push-button" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(symbol "SW_Push_0_1" (circle (center -2.032 0) (radius 0.508) (stroke (width 0) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0 1.27) 
+
+(xy 0 3.048)) (stroke (width 0) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 2.54 1.27) 
+
+(xy -2.54 1.27)) (stroke (width 0) (type default)) (fill (type none))) (circle (center 2.032 0) (radius 0.508) (stroke (width 0) (type default)) (fill (type none))) (pin passive line (at -5.08 0 0) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 5.08 0 180) (length 2.54) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))))) 
+
+(symbol (lib_id "Switch:SW_Push") (at 95.25 59.69 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "798a6b34-0bac-45a8-b1f3-159145703ad2") 
+
+(property "Reference" "SW1" (at 95.25 52.07 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SW_Push" (at 95.25 54.61 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "kbd_SW:CherryMX_Solder_1u" (at 95.25 54.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "~" (at 95.25 54.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "Push button switch, generic, two pins" (at 95.25 59.69 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c3d9c6ed-ddb8-4be1-ac49-9334a41cb2cb")) (pin "2" (uuid "5ed456d7-15ff-4d2f-855c-b944e7e69fcd")) (instances (project "" (path "/d62cec68-5dc5-47b9-9405-4dd35390a128" (reference "SW1") (unit 1))))) (sheet_instances (path "/" (page "1"))) 
+
+(symbol (lib_id "Switch:SW_Push") (at 100.0 100.0 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "204580b2-1b94-4870-a5a8-c685465d1728") 
+
+(property "Reference" "SW2" (at 100.0 92.38 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SW_Push" (at 100.0 94.92 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "kbd_SW:CherryMX_Solder_1.25u" (at 100.0 94.92 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "~" (at 100.0 94.92 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "Push button switch, generic, two pins" (at 100.0 100.0 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f4647f33-7e4a-4212-83f6-23e5125031d6")) (pin "2" (uuid "c416a807-ce90-4d61-b81c-eefc6d8fb3d6")) (instances (project "" (path "/d62cec68-5dc5-47b9-9405-4dd35390a128" (reference "SW2") (unit 1))))))
