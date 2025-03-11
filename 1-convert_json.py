@@ -12,5 +12,5 @@ for row_index, row in enumerate(json_dict):
             new_row.append(f"{row_index},{col_index}")
             col_index += 1
     new_json_dict.append(new_row)
-with open('keyboard-lauout-indexed.json', 'w') as f:
+with open('keyboard-layout-indexed.json', 'w') as f:
     json.dump(new_json_dict, f, indent=2)
